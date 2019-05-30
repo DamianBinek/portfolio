@@ -39,7 +39,6 @@
             :key="i"
             :href="link.href"
             class="subheading mx-3"
-            target="_blank"
           >
             {{ link.text }}
           </a>
@@ -64,7 +63,7 @@
         },
         {
           text: 'My Projects',
-          href: 'https://madewithvuetifyjs.com'
+          href: '/my-projects'
         },
         {
           text: 'Contact Me',

@@ -25,7 +25,7 @@
       </v-btn>  -->
     </v-toolbar>
     <v-content dark >
-      <HelloWorld/>
+      <router-view></router-view>
     </v-content>
   </v-app>
 </template>
