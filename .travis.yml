@@ -2,7 +2,12 @@ language: node_js
 node_js:
   - "10"
 script:
-  - echo "Deploying!"
+  - echo 'Build is starting...'
+  - echo 'Installing dependencies!'
+  - npm install
+  - echo 'Build project'
+  - npm run build
+  - echo 'Deploying now...'
 install:
   - npm install -g firebase-tools
 after_success:
